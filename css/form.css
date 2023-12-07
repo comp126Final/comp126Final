@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Londrina+Outline&family=Londrina+Solid&display=swap');
+
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Quicksand";
+}
+
+.top-header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #d9d9d9ff;
+    height:40px;
+}
+
+.logo {
+    margin-left: 30px;
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+.contact-button {
+    display: flex;
+    height: 36px;
+    width: 100px;
+    background-color: #e97c3fff;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    margin-top:15px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.main-logo {
+    display: flex;
+    background-color: #d9d9d9ff;
+    height: 80px;
+    font-family: 'Londrina Outline', sans-serif;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 25px;
+}
+
+.caption-logo {
+    display: flex;
+    background-color: #d9d9d9ff;
+    height: 75px;
+    font-family: 'Josefin Slab', serif;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+}
