@@ -5,7 +5,6 @@ html, body{
     margin: 0;
     height: 100%;
     width: 100%;
-    font-family: "Quicksand";
 }
 
 /*    Header    */
@@ -23,6 +22,17 @@ html, body{
     font-family: 'Londrina Solid', sans-serif;
 }
 
+.logo a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.logo a:hover {
+    color: #e97c3fff;
+
+}
+
 .contact-button {
     display: flex;
     height: 36px;
@@ -35,6 +45,12 @@ html, body{
     margin-right: 50px;
     border-radius: 20px;
     font-family: 'Josefin Slab', serif;
+    transition: background-color 0.3s, font-size 0.05s;
+}
+
+.contact-button:hover {
+    background-color: #9eb8beff;
+    font-size: 17px;
 }
 
 .main-logo {
@@ -109,7 +125,12 @@ ul.contact li a{
     display: inline-block;
     background: #9eb8beff;
     width: 40px;
-    height: 10px;
+    height: 40px;
     line-height: 10px;
     text-align: center;
+    transition: font-size 0.3s;
+}
+
+ul.contact li a:hover {
+    font-size: 24px;
 }
