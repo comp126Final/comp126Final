@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Londrina+Outline&family=Londrina+Solid&display=swap');
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    color: black;
+  }
+
+.grid-container {
+    background-color: white;
+    max-width: auto;
+    height: 100%;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px
+}
+
+.flex-item1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: #9EB8BE;
+}
+
+.flex-item2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: blue;
+}
+
+.image1 {
+    background-image: url("../img/oliverCage.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.image2 {
+    background-image: url("../img/oliverCage2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.image3 {
+    background-image: url("../img/oliverBranch.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.flex-item3 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    background-color: #D9D9D9; 
+    font-family: 'Josefin Slab', serif;
+    border-radius: 10px;    
+    font-weight:600;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.flex-item4 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 200px;
+}
+
+.donations {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.donationsButton {
+    background-color: #D9D9D9; ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    font-family: Londrina Solid;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 2.4px; 
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+.flex-item5 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+
+.flex-item6 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Londrina Outline', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.appointmentButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9EB8BE;
+    color: black;
+    height: 40px; 
+    width: 200px;
+    font-size: 12px;
+    border-radius: 10px;
+    font-family: 'Josefin Slab', serif;
+    border: 1px solid #000000;
+    text-decoration: none;
+    transition: background-color 0.8s ease-in;
+}
+
+.appointmentButton:hover {
+    background-color: rgb(233, 188, 162);
+}
+
+.bookNowButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9EB8BE;
+    color: black;
+    height: 40px; 
+    width: 200px;
+    font-size: 12px;
+    border-radius: 10px;
+    font-family: 'Josefin Slab', serif;
+    border: 1px solid #000000;
+    text-decoration: none;
+    transition: background-color 0.8s ease-in;
+}
+
+.bookNowButton:hover {
+    background-color: rgb(233, 188, 162);
+}
+
+
+.flex-item7 {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    background-color: #9EB8BE;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Londrina+Outline&family=Londrina+Solid&display=swap');
+
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*    Header    */
+
+.top-header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #9EB8BE;
+    height:40px;
+}
+
+.logo {
+    margin-left: 30px;
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.logo a:hover {
+    color: #e97c3fff;
+
+}
+.contact-button {
+    display: flex;
+    height: 36px;
+    width: 100px;
+    background-color: #e97c3fff;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    margin-top:15px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-family: 'Josefin Slab', serif;
+    transition: background-color 0.3s, font-size 0.05s, color 0.5s;
+}
+
+.contact-button:hover {
+    background-color: #e3e3e3;
+    color: black;
+    font-size: 17px;
+}
+
+.main-logo {
+    display: flex;
+    background-color: #9EB8BE;
+    height: 80px;
+    font-family: 'Londrina Outline', sans-serif;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.caption-logo {
+    display: flex;
+    background-color: #9EB8BE;
+    height: 75px;
+    font-family: 'Josefin Slab', serif;
+    justify-content: center;
+    box-shadow: 0px 3px 3px gray;
+}
+
+
+.footer{
+    bottom: 0;
+    position: absolute;
+}
+
+.copyright{
+    overflow: hidden;
+    padding: 10px 0em 45px 0em; 
+    text-align: center;
+    background: #9EB8BE;
+    height: 70px;
+    box-shadow: 0px -3px 3px gray;
+
+}
+
+.copyright p{
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Londrina Solid', sans-serif;
+    font-weight: bold;
+}
+
+.copyright i {
+    font-size:25px;
+}
+.copyright a{
+    text-decoration: none;
+    color: black;
+
+}
+
+ul.contact{
+    margin: 0;
+    padding: 0em 0em 0em ;
+    list-style: none;
+}
+
+ul.contact li{
+    display: inline-block;
+    padding: 0em 2px;
+    font-size:17px;
+
+}
+
+ul.contact li a{
+    color: black;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 10px;
+    text-align: center;
+    transition: font-size 0.3s;
+}
+
+ul.contact li a:hover {
+    font-size: 24px;
+}
