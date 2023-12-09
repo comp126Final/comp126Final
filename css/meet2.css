@@ -57,6 +57,7 @@ html, body {
 
 .image1 {
     background-image: url("../images/Screen\ Shot\ 2023-12-09\ at\ 8.52.08\ AM.png");
+    /* photo permission recieved by Jacob Ramirez-Perez */
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -65,7 +66,8 @@ html, body {
 }
 
 .image2 {
-    background-image: url("../images/Screen\ Shot\ 2023-12-09\ at\ 8.55.04\ AM.png");
+    background-image: url("../images/roberto-nickson-gRHEt2kF3NU-unsplash.jpg");
+    /* Free to use stock image recieved by Roberto Nickson */
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -73,8 +75,9 @@ html, body {
     margin-left: 10px;
 }
 
-.image3 {
-    background-image: url("../images/Screen\ Shot\ 2023-12-09\ at\ 8.56.20\ AM.png");
+.image3 { 
+    background-image: url("../images/julia-craice-o0S-0Pa4F2M-unsplash.jpg");
+    /* Free to use stock image by Julia Craice  */
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -116,7 +119,8 @@ html, body {
 }
 
 .image4 {
-    background-image: url("../images/Screen\ Shot\ 2023-12-09\ at\ 8.56.56\ AM.png");
+    background-image: url("../images/joana-pires-HZsD3Znzt8Y-unsplash.jpg");
+    /* Free to use stock image by Joana Pires  */
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -200,19 +204,19 @@ html, body {
     }
 
     .image1 {
-        height: 500px
+        height: 600px
     }
 
     .image2{
-        height: 500px
+        height: 600px
     }
 
     .image3 {
-        height: 500px
+        height: 600px
     }
 
     .image4 {
-        height: 500px
+        height: 600px
     }
 }
 

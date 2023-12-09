@@ -56,6 +56,7 @@ html, body {
 
 .image1 {
     background-image: url("../images/Screen\ Shot\ 2023-12-09\ at\ 8.52.08\ AM.png"); 
+    /* photo permission recieved by Jacob Ramirez-Perez */
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -64,7 +65,8 @@ html, body {
 }
 
 .image2 {
-    background-image: url("../images/Screen\ Shot\ 2023-12-09\ at\ 9.24.08\ AM.png");
+    background-image: url("../images/tuqa-nabi-uhnZZUaTIOs-unsplash.jpg");
+    /* free to use stock photo recieved by Tuqa Nabi */
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -73,11 +75,12 @@ html, body {
 }
 
 .image3 {
-    background-image: url("../images/Screen\ Shot\ 2023-12-09\ at\ 9.24.31\ AM.png");
+    background-image: url("../images/sergey-semin-Y0WXj3xqJz0-unsplash.jpg");
+    /* free to use stock photo recieved by Sergey Semin */
     background-size: cover;
     background-position: center;
     border-radius: 15px;
-    height: 200px;
+    height: 300px;
     margin-left: 10px;
 }
 
